@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DAB162C26DEED03003705B7 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB162B26DEED03003705B7 /* MenuItem.swift */; };
+		3DAB162E26DEF08E003705B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB162D26DEF08E003705B7 /* ContentView.swift */; };
+		3DAB163026DEF9E4003705B7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3DAB162F26DEF9E4003705B7 /* README.md */; };
 		3DE2748226DC4A200075144B /* TwitterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE2748126DC4A200075144B /* TwitterApp.swift */; };
-		3DE2748426DC4A200075144B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE2748326DC4A200075144B /* ContentView.swift */; };
 		3DE2748626DC4A270075144B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE2748526DC4A270075144B /* Assets.xcassets */; };
 		3DE2748926DC4A270075144B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE2748826DC4A270075144B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DAB162B26DEED03003705B7 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		3DAB162D26DEF08E003705B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DAB162F26DEF9E4003705B7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3DE2747E26DC4A200075144B /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE2748126DC4A200075144B /* TwitterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterApp.swift; sourceTree = "<group>"; };
-		3DE2748326DC4A200075144B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DE2748526DC4A270075144B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DE2748826DC4A270075144B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3DE2748A26DC4A270075144B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +40,7 @@
 		3DE2747526DC4A200075144B = {
 			isa = PBXGroup;
 			children = (
+				3DAB162F26DEF9E4003705B7 /* README.md */,
 				3DE2748026DC4A200075144B /* Twitter */,
 				3DE2747F26DC4A200075144B /* Products */,
 			);
@@ -52,8 +57,9 @@
 		3DE2748026DC4A200075144B /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
+				3DE2749026DC4B8B0075144B /* Model */,
 				3DE2748126DC4A200075144B /* TwitterApp.swift */,
-				3DE2748326DC4A200075144B /* ContentView.swift */,
+				3DAB162D26DEF08E003705B7 /* ContentView.swift */,
 				3DE2748526DC4A270075144B /* Assets.xcassets */,
 				3DE2748A26DC4A270075144B /* Info.plist */,
 				3DE2748726DC4A270075144B /* Preview Content */,
@@ -67,6 +73,14 @@
 				3DE2748826DC4A270075144B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DE2749026DC4B8B0075144B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DAB162B26DEED03003705B7 /* MenuItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAB163026DEF9E4003705B7 /* README.md in Resources */,
 				3DE2748926DC4A270075144B /* Preview Assets.xcassets in Resources */,
 				3DE2748626DC4A270075144B /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE2748426DC4A200075144B /* ContentView.swift in Sources */,
+				3DAB162C26DEED03003705B7 /* MenuItem.swift in Sources */,
 				3DE2748226DC4A200075144B /* TwitterApp.swift in Sources */,
+				3DAB162E26DEF08E003705B7 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
