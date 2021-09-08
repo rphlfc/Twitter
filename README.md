@@ -8,6 +8,7 @@ Implementação do menu do aplicativo do Twitter para iOS usando SwiftUI
 
 ## Vídeos
 - [Vídeo no Youtube](https://youtu.be/5e98-tKkZmI)
+- [Vídeo no Youtube - Localization and plurals](https://youtu.be/lDp8jGBMsE8)
 
 ## Requisitos
 - iOS 14

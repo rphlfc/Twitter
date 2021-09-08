@@ -14,10 +14,10 @@ struct MenuItem: Identifiable {
 }
 
 let menuItems = [
-    MenuItem(image: "person", name: "Profile"),
-    MenuItem(image: "list.bullet.rectangle", name: "Lists"),
-    MenuItem(image: "text.bubble", name: "Topics"),
-    MenuItem(image: "bookmark", name: "Bookmarks"),
-    MenuItem(image: "bolt", name: "Moments"),
-    MenuItem(image: "star", name: "Monetization")
+    MenuItem(image: "person", name: "profile"),
+    MenuItem(image: "list.bullet.rectangle", name: "lists"),
+    MenuItem(image: "text.bubble", name: "topics"),
+    MenuItem(image: "bookmark", name: "bookmarks"),
+    MenuItem(image: "bolt", name: "moments"),
+    MenuItem(image: "star", name: "monetization")
 ]

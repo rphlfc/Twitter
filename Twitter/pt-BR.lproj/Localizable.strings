@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Twitter
+
+  Created by Raphael Cerqueira on 08/09/21.
+  
+*/
+
+// I am going to cheat a little bit here
+"follower" = "Seguidor";
+"followers" = "Seguidoress";
+"following" = "Seguindo";
+"profile" = "Perfil";
+"lists" = "Listas";
+"topics" = "Tópicos";
+"bookmarks" = "Itens Salvos";
+"moments" = "Moments";
+"monetization" = "Monetização";
+"settings and privacy" = "Configurações e Privacidade";
+"help center" = "Central de Ajuda";

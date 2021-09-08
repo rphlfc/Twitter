@@ -66,6 +66,8 @@ struct ContentView: View {
 }
 
 struct MenuView: View {
+    var followerCount = 1
+    
     var body: some View {
         VStack {
             VStack(alignment: .leading) {
@@ -95,13 +97,13 @@ struct MenuView: View {
                     Text("780")
                         .fontWeight(.bold)
                     
-                    Text("Following")
+                    Text("following")
                     
-                    Text("2.5M")
+                    Text("\(followerCount)")
                         .fontWeight(.bold)
                         .padding(.leading)
                     
-                    Text("Followers")
+                    Text("follower-count \(followerCount)", tableName: "Plurals")
                 }
                 .padding(.top)
             }
@@ -117,7 +119,7 @@ struct MenuView: View {
                                     .font(.system(size: 21, weight: .semibold))
                                     .foregroundColor(Color("foreground"))
                                 
-                                Text(item.name)
+                                Text(LocalizedStringKey(item.name))
                                     .foregroundColor(.primary)
                                 
                                 Spacer()
@@ -132,7 +134,7 @@ struct MenuView: View {
                     VStack(spacing: 30) {
                         Button(action: {}, label: {
                             HStack {
-                                Text("Settings and Privacy")
+                                Text("settings and privacy")
                                 
                                 Spacer()
                             }
@@ -140,7 +142,7 @@ struct MenuView: View {
                         
                         Button(action: {}, label: {
                             HStack {
-                                Text("Help Center")
+                                Text("help center") // if it doesn't work try cleaning the project
                                 
                                 Spacer()
                             }
@@ -174,6 +176,11 @@ struct MenuView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            
+            ContentView()
+                .environment(\.locale, .init(identifier: "pt-BR"))
+        }
     }
 }
